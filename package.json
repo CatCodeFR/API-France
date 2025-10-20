@@ -1,0 +1,32 @@
+{
+  "name": "api-france",
+  "version": "1.0.0",
+  "description": "\"API France\" fournit des informations géographiques détaillées sur toutes les communes de France. Elle est conçue pour permettre aux applications internes d'accéder facilement aux données géospatiales des communes, notamment leur localisation, leur population, les codes postaux associés, etc.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CatCodeFR/api-france.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Cat Code FR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CatCodeFR/api-france/issues"
+  },
+  "homepage": "https://github.com/CatCodeFR/api-france#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mysql2": "^3.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
